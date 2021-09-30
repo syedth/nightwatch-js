@@ -1,0 +1,22 @@
+{
+  "name": "crm-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch",
+    "reports": "./node_modules/.bin/nightwatch-html-reporter -d reports"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^93.0.1",
+    "geckodriver": "^2.0.4",
+    "nightwatch": "^1.7.11"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "nightwatch-html-reporter": "^2.0.6"
+  }
+}
